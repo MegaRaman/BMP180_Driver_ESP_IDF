@@ -77,7 +77,5 @@ esp_err_t bmp180_init_height(struct bmp180 *sensor);
 
 int32_t bmp180_get_rel_height(struct bmp180 *sensor);
 
-esp_err_t bmp180_soft_reset(void);
-
 #endif // __BMP180_DRIVER__
 
